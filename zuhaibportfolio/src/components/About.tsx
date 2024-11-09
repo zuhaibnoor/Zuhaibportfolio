@@ -25,11 +25,11 @@ const About = () => {
                 ABOUT ME
             </div>
             <i>
-                I'm a Computer Systems Engineering student at NED University with a strong 
+                I&apos;m a Computer Systems Engineering student at NED University with a strong 
                 foundation in web development and programming. My skills include HTML, CSS, JavaScript, Python, C, and TypeScript. 
-                Currently, I'm focused on advancing my expertise in Django and Next.js to build dynamic and scalable web applications. 
+                Currently, I&apos;m focused on advancing my expertise in Django and Next.js to build dynamic and scalable web applications. 
                 Passionate about problem-solving and eager to stay updated with the latest technologies, 
-                I'm always looking for opportunities to expand my knowledge and refine my skills.
+                I&apos;m always looking for opportunities to expand my knowledge and refine my skills.
             </i>
         </div>
     </div>

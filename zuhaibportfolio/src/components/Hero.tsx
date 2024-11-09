@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='text-[100px sm:text-[50px] md:text-[50px] font-bold leading-tight flex justify-center items-center'>
                 <div>
                     <p>This is </p>
-                    <p> Zuhaib Noor's </p>
+                    <p> Zuhaib Noor&apos;s </p>
                     <p> portfolio</p>
                 </div>
             </div>
