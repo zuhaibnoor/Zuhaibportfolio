@@ -29,7 +29,7 @@ function App() {
 
         <div className='h-screen bg-[#00000D] p-2 md:p-10 sm:h-[80vh] md:h-[90vh]'>
             <div className='bg-[#171716] m-auto w-[95%] sm:w-[70%] h-full p-5 md:p-10  rounded-lg'>
-                <h1 className='text-white text-center font-bold text-[50px]'>{"< "}About <div className=' inline text-[#7ABA78]'>Me</div>{" />"}</h1>
+                <h1 className='text-white text-center font-bold text-[40px] md:text-[50px]'>{"< "}About <div className=' inline text-[#7ABA78]'>Me</div>{" />"}</h1>
                 <p className='text-center text-white text-[20px] pt-10 text-center tracking-wide leading-[2] md:leading-[3] family-courier md:pt-3'>Code, creativity, and curiosity—that’s my world.
                      As a Computer Systems Engineering student, <br/>I love building smart solutions, whether it’s crafting sleek software or optimizing systems. Always exploring, always learning—let’s create something awesome! 🚀</p>
 
