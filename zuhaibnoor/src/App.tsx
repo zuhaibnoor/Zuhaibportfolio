@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 function App() {
  return(
     <>
-    <div className='h-screen bg-[#00000D]'>
+    <div className='h-screen bg-[#00000D]' id = "hero">
         <Navbar/>
 
         {/* hero section start */}
@@ -27,7 +27,7 @@ function App() {
 
         {/* About me start */}
 
-        <div className='h-screen bg-[#00000D] p-2 md:p-10 sm:h-[80vh] md:h-[90vh]'>
+        <div className='h-screen bg-[#00000D] p-2 md:p-10 sm:h-[80vh] md:h-[90vh]' id='about'>
             <div className='bg-[#171716] m-auto w-[95%] sm:w-[70%] h-full p-5 md:p-10  rounded-lg'>
                 <h1 className='text-white text-center font-bold text-[40px] md:text-[50px]'>{"< "}About <div className=' inline text-[#7ABA78]'>Me</div>{" />"}</h1>
                 <p className='text-center text-white text-[20px] pt-10 text-center tracking-wide leading-[2] md:leading-[3] family-courier md:pt-3'>Code, creativity, and curiosity—that’s my world.
@@ -45,7 +45,7 @@ function App() {
         {/* About me end */}
 
         {/* projects start */}
-        <div className='h-screen bg-[#00000D] p-10'>
+        <div className='h-screen bg-[#00000D] p-10' id = "projects">
             <div className='bg-[#171716] m-auto w-[70%] h-full p-10'>
                 <h1 className='text-white text-center font-bold text-[50px]'>{"< "}My<div className=' inline text-[#7ABA78]'>Projects</div>{" />"}</h1>
                 <div></div>
@@ -55,7 +55,7 @@ function App() {
 
 
         {/* Contact me start */}
-        <div className='h-[70vh] bg-[#00000D] p-10'>
+        <div className='h-[70vh] bg-[#00000D] p-10' id = "contact">
             <div className='bg-[#171716] m-auto w-[70%] h-[60vh] p-10'>
                 <h1 className='text-white text-center font-bold text-[50px]'>{"< "}Contact<div className=' inline text-[#7ABA78]'> Me</div>{" />"}</h1>
                 <div></div>
