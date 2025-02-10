@@ -55,7 +55,7 @@ function App() {
                     <div className='border bg-[#00000D] rounded-xl h-[30%] md:h-[30%] m-2'>
                         <h1 className='text-white text-center font-[700] text-[30px] italic'>2Do-App </h1>
                         <div className='text-white text-center p-5 pt-5 family-courier lg:leading-9'>A sleek and efficient task manager built with Python's CustomTkinter, blending simplicity with a modern UI. Designed for productivity, it offers an intuitive experience to keep track of tasks effortlessly.</div>
-                        <div className='text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)]'><a href="https://github.com/zuhaibnoor/2Do-app" target='_blank' className='bg-[#7ABA78] text-white family-courier py-2 px-4 rounded  hover:text-[#000000] text-center'>
+                        <div className='text-center'><a href="https://github.com/zuhaibnoor/2Do-app" target='_blank' className='bg-[#7ABA78] text-white family-courier py-2 px-4 rounded  hover:text-[#000000] text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)]'>
                         Check it out!
                         </a></div>
                     </div>
@@ -64,7 +64,7 @@ function App() {
                     <div className='border bg-[#00000D] rounded-xl h-[30%] md:h-[30%] m-2'>
                         <h1 className='text-white text-center font-[700] text-[25px] md:text-[30px] italic'>Cafeteria Management System</h1>
                         <div className='text-white text-center p-5 pt-5 family-courier lg:leading-9'>A smart cafeteria management system with Django, streamlining customer orders and inventory tracking effortlessly. Built for efficiency, it enhances workflow while keeping operations seamless and organized.</div>
-                        <div className='text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)]'><a href="https://github.com/Hashaam-Hasan/Cafeteria-Management-System" target='_blank' className='bg-[#7ABA78] text-white family-courier py-2 px-4 rounded  hover:text-[#000000] text-center'>
+                        <div className='text-center'><a href="https://github.com/Hashaam-Hasan/Cafeteria-Management-System" target='_blank' className='bg-[#7ABA78] text-white family-courier py-2 px-4 rounded  hover:text-[#000000] text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)]'>
                         Check it out!
                         </a></div>
                     </div>                    
@@ -74,7 +74,7 @@ function App() {
                     <div className='border bg-[#00000D] rounded-xl h-[25%] md:h-[30%] m-2'>
                         <h1 className='text-white text-center font-[700] text-[25px] md:text-[30px] italic'>Hangman</h1>
                         <div className='text-white text-center p-5 pt-5 family-courier lg:leading-9'>Hangman, a classic word-guessing game, was one of my first Python projects when I started learning to code, making it a fun way to explore logic and problem-solving.</div>
-                        <div className='text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)]'><a href="https://github.com/zuhaibnoor" target='_blank' className='bg-[#7ABA78] text-white family-courier py-2 px-4 rounded  hover:text-[#000000] text-center'>
+                        <div className='text-center'><a href="https://github.com/zuhaibnoor" target='_blank' className='bg-[#7ABA78] text-white family-courier py-2 px-4 rounded  hover:text-[#000000] text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)]'>
                         Check it out!
                         </a></div>
                     </div>
@@ -87,16 +87,31 @@ function App() {
 
 
         {/* Contact me start */}
-        <div className='h-[50vh] bg-[#00000D] pt-10' id = "contact">
-            <div className='bg-[#171716] m-auto w-[80%] h-full p-5 rounded-xl w-[93%] sm:w-[66.5%]  h-full md:p-10'>
-                <h1 className='text-white text-center font-bold text-[50px]'>{"< "}Contact<div className=' inline text-[#7ABA78]'> Me</div>{" />"}</h1>
-                <div className='flex flex-row h-[70%] w-[10%] items-center justify-center m-auto'>
-                    <div className=''><a href="mailto:zuhaibnoor2003@gmail.com"><img src="./gmail.svg" alt="" height="30px" className=' text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)] m-3'/></a></div>
-                    <div className=''><a href="linkedin.com/in/zohaibnoor"><img src="./linkedin.svg" alt="" className='h-[30%] text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)] m-3'/></a></div>
-                    <div className=''><a href="github.com/zuhaibnoor"><img src="./github.svg" alt="" className='h-[30%] text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)] m-3'/></a></div>
-                    
+        <div className='h-[40vh] bg-[#00000D] pt-10' id="contact">
+            <div className='bg-[#171716] m-auto w-[80%] h-full p-5 rounded-xl w-[93%] sm:w-[66.5%] h-full md:p-10'>
+                <h1 className='text-white text-center font-bold text-[35px]'>{"< "}Connect with<div className='inline text-[#7ABA78]'> Me</div>{" />"}</h1>
+                <div className='flex flex-row h-[70%] w-[80%] items-center justify-around  m-auto'>
+                    <div className='text-center'>
+                        <a href="mailto:zuhaibnoor2003@gmail.com">
+                            <img src="./gmail.svg" alt="Gmail" className='h-[50px] w-[50px] hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)] m-3'/>
+                        </a>
+                        <p className='text-white'>Gmail</p>
+                    </div>
+                    <div className='text-center'>
+                        <a href="https://linkedin.com/in/zohaibnoor">
+                            <img src="./linkedin.svg" alt="LinkedIn" className='h-[50px] w-[50px] hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)] m-3'/>
+                        </a>
+                        <p className='text-white'>LinkedIn</p>
+                    </div>
+                    <div className='text-center'>
+                        <a href="https://github.com/zuhaibnoor">
+                            <img src="./github.svg" alt="GitHub" className='h-[50px] w-[50px] hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)] m-3'/>
+                        </a>
+                        <p className='text-white'>GitHub</p>
+                    </div>
                 </div>
             </div>
+            <div className='text-center bg-[#00000D] text-white family-courier p-4s'>&copy; 2025 Zuhaib Noor</div>
         </div>
         {/* Contact me end */}
   </>
