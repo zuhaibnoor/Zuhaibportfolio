@@ -45,7 +45,7 @@ function App() {
         {/* About me end */}
 
         {/* projects start */}
-        <div className='h-[150vh] md:h-[130vh] bg-[#00000D]' id = "projects">
+        <div className='h-[170vh] md:h-[130vh] bg-[#00000D]' id = "projects">
             <div className='bg-[#171716] m-auto w-[80%] h-full p-5 rounded-xl w-[93%] sm:w-[66.5%]  h-full md:p-10'>
                 <h1 className='text-white text-center font-bold text-[30px] md:text-[40px]'>{"< "}My<div className=' inline text-[#7ABA78]'> Projects</div>{" />"}</h1>
                 
