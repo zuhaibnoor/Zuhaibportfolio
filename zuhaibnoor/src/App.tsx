@@ -1,5 +1,6 @@
 import './index.css'
 import Navbar from './components/Navbar'
+import './App.css'
 function App() {
  return(
     <>
@@ -8,10 +9,10 @@ function App() {
 
         {/* hero section start */}
         <div className = 'flex flex-row h-full w-full items-center justify-center'>
-            <div>
+            <div className=''>
                 <img src='./profile.png' className='rounded-[50%]'/>
             </div>
-            <div className='flex flex-col'>
+            <div className='flex flex-col floating'>
                 <div className='p-5 text-white font-[700] text-[50px]'>
                 <div className='text-white text-[20px] font-normal'><div className='inline text-[18px] text-[#7ABA78]'>{"</> "}</div>👋 Hi, I am</div>    
                     Zuhaib <div className='inline text-[#7ABA78]'>Noor</div>
