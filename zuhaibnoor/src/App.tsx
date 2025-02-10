@@ -52,7 +52,7 @@ function App() {
                 <div className='flex flex-col pt-10 h-full'>
                     
                     {/* project 1 */}
-                    <div className='border bg-[#00000D] rounded-xl h-[25%] md:h-[30%] m-2'>
+                    <div className='border bg-[#00000D] rounded-xl h-[30%] md:h-[30%] m-2'>
                         <h1 className='text-white text-center font-[700] text-[30px] italic'>2Do-App </h1>
                         <div className='text-white text-center p-5 pt-5 family-courier lg:leading-9'>A sleek and efficient task manager built with Python's CustomTkinter, blending simplicity with a modern UI. Designed for productivity, it offers an intuitive experience to keep track of tasks effortlessly.</div>
                         <div className='text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)]'><a href="https://github.com/zuhaibnoor/2Do-app" target='_blank' className='bg-[#7ABA78] text-white family-courier py-2 px-4 rounded  hover:text-[#000000] text-center'>
