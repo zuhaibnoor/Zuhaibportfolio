@@ -34,7 +34,7 @@ function App() {
                      As a Computer Systems Engineering student, <br/>I love building smart solutions, whether it’s crafting sleek software or optimizing systems. Always exploring, always learning—let’s create something awesome! 🚀</p>
 
                 <div className='text-center pt-10'>
-                    <a href="./src/assets/zuhaibs-resume.pdf" download className='bg-[#7ABA78] text-white font-bold py-2 px-4 rounded italic'>
+                    <a href="./assets/zuhaibs-resume.pdf" download className='bg-[#7ABA78] text-white font-bold py-2 px-4 rounded italic'>
                         My Resume!
                     </a>
                 </div>
