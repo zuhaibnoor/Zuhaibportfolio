@@ -13,10 +13,10 @@ function App() {
             </div>
             <div className='flex flex-col'>
                 <div className='p-5 text-white font-[700] text-[50px]'>
-                <div className='text-white text-[20px]'>Hi, i am</div>    
+                <div className='text-white text-[20px] font-normal'><div className='inline text-[18px] text-[#7ABA78]'>{"</> "}</div>👋 Hi, I am</div>    
                     Zuhaib <div className='inline text-[#7ABA78]'>Noor</div>
                 </div>
-                <div className='text-white text-[20px]'>& I am a developer!</div>
+                <div className='text-white text-[20px]'>& I am a developer! <div className='inline text-[18px] text-[#7ABA78]'>{"</>"}</div></div>
             </div>
 
         {/* hero section end */}
