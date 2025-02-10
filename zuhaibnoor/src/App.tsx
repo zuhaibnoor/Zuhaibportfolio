@@ -61,7 +61,7 @@ function App() {
                     </div>
                     
                     {/* project 2 */}
-                    <div className='border bg-[#00000D] rounded-xl h-[30%] md:h-[35%] m-2'>
+                    <div className='border bg-[#00000D] rounded-xl h-[30%] md:h-[30%] m-2'>
                         <h1 className='text-white text-center font-[700] text-[25px] md:text-[30px] italic'>Cafeteria Management System</h1>
                         <div className='text-white text-center p-5 pt-5 family-courier lg:leading-9'>A smart cafeteria management system with Django, streamlining customer orders and inventory tracking effortlessly. Built for efficiency, it enhances workflow while keeping operations seamless and organized.</div>
                         <div className='text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)]'><a href="https://github.com/Hashaam-Hasan/Cafeteria-Management-System" target='_blank' className='bg-[#7ABA78] text-white family-courier py-2 px-4 rounded  hover:text-[#000000] text-center'>
