@@ -87,10 +87,15 @@ function App() {
 
 
         {/* Contact me start */}
-        <div className='h-[70vh] bg-[#00000D] p-10' id = "contact">
-            <div className='bg-[#171716] m-auto w-[70%] h-[60vh] p-10'>
+        <div className='h-[50vh] bg-[#00000D] pt-10' id = "contact">
+            <div className='bg-[#171716] m-auto w-[80%] h-full p-5 rounded-xl w-[93%] sm:w-[66.5%]  h-full md:p-10'>
                 <h1 className='text-white text-center font-bold text-[50px]'>{"< "}Contact<div className=' inline text-[#7ABA78]'> Me</div>{" />"}</h1>
-                <div></div>
+                <div className='flex flex-row h-[70%] w-[10%] items-center justify-center m-auto'>
+                    <div className=''><a href="mailto:zuhaibnoor2003@gmail.com"><img src="./gmail.svg" alt="" height="30px" className=' text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)] m-3'/></a></div>
+                    <div className=''><a href="linkedin.com/in/zohaibnoor"><img src="./linkedin.svg" alt="" className='h-[30%] text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)] m-3'/></a></div>
+                    <div className=''><a href="github.com/zuhaibnoor"><img src="./github.svg" alt="" className='h-[30%] text-center hover:drop-shadow-[0_3px_3px_rgba(240,240,240,0.25)] m-3'/></a></div>
+                    
+                </div>
             </div>
         </div>
         {/* Contact me end */}
