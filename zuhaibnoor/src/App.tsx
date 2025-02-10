@@ -90,7 +90,7 @@ function App() {
         {/* Contact me start */}
         <div className='h-[40vh] bg-[#00000D] pt-10' id="contact">
             <div className='bg-[#171716] m-auto w-[80%] h-full p-5 rounded-xl w-[93%] sm:w-[66.5%] h-full md:p-10'>
-                <h1 className='text-white text-center font-bold text-[35px]'>{"< "}Connect with<div className='inline text-[#7ABA78]'> Me</div>{" />"}</h1>
+                <h1 className='text-white text-center font-bold text-[28px] md:text-[30px]'>{"< "}Connect with<div className='inline text-[#7ABA78]'> Me</div>{" />"}</h1>
                 <div className='flex flex-row h-[70%] w-[80%] items-center justify-around  m-auto'>
                     <div className='text-center'>
                         <a href="mailto:zuhaibnoor2003@gmail.com">
