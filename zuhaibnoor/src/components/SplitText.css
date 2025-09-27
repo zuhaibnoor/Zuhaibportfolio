@@ -1,0 +1,14 @@
+.split-text { display: inline-block; white-space: pre-wrap; }
+.split-item {
+  display: inline-block;
+  transform: translateY(.35em);
+  opacity: 0;
+  animation-name: split-fade-up;
+  animation-duration: 460ms;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.2,.9,.2,1);
+}
+@keyframes split-fade-up {
+  from { transform: translateY(.35em); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
