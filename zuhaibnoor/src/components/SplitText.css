@@ -4,7 +4,7 @@
   transform: translateY(.35em);
   opacity: 0;
   animation-name: split-fade-up;
-  animation-duration: 460ms;
+  animation-duration: 2000ms;
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(.2,.9,.2,1);
 }
